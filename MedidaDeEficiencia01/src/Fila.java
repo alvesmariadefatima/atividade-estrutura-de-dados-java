@@ -7,10 +7,12 @@ public class Fila {
     String primeiro, ultimo, atual;
     int tamanho;
 
-    Fila() {
+    Fila(int tamanho) {
         this.primeiro = "";
         this.ultimo = "";
         this.tamanho = tamanho;
+        this.atual = atual;
+        this.vetor = new Object[tamanho];
     }
 
     boolean estaVazio() {
@@ -72,4 +74,3 @@ public class Fila {
         System.out.println(atual);
     }
 }
-
