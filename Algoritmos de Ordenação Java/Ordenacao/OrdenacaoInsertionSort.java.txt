@@ -1,0 +1,15 @@
+package ordenacao;
+
+public class OrdenacaoInsertionSort {
+	public static void InsertionSort(Object lista[]){
+		for(int i = 0; i < lista.length; i++){
+			aux = lista[i];
+			j = i - 1;
+		}
+		while(aux < lista[j] && j >= 0){
+			lista[j + 1] = lista[j];
+			j--;
+		}
+		lista[j+1] = aux;
+	}
+}
